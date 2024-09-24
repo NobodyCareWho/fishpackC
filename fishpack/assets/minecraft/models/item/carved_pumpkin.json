@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/carved_pumpkin",
+		"1": "block/pumpkin_side",
+		"2": "block/pumpkin_top",
+		"particle": "block/carved_pumpkin"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	],
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "item/carved_pumpkin/1"},
+		{"predicate": {"custom_model_data": 2}, "model": "item/carved_pumpkin/2"},
+		{"predicate": {"custom_model_data": 3}, "model": "item/carved_pumpkin/3"},
+		{"predicate": {"custom_model_data": 4}, "model": "item/carved_pumpkin/4"},
+		{"predicate": {"custom_model_data": 5}, "model": "item/carved_pumpkin/5"},
+		{"predicate": {"custom_model_data": 6}, "model": "item/carved_pumpkin/6"},
+		{"predicate": {"custom_model_data": 7}, "model": "item/carved_pumpkin/7"},
+		{"predicate": {"custom_model_data": 8}, "model": "item/carved_pumpkin/8"},
+		{"predicate": {"custom_model_data": 9}, "model": "item/carved_pumpkin/9"},
+		{"predicate": {"custom_model_data": 10}, "model": "item/carved_pumpkin/10"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [43, 0, 0],
+			"translation": [-0.75, 0, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [43, 0, 0],
+			"translation": [-0.75, 0, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5, 48, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-3, 16, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [45, -45, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"head": {
+			"rotation": [0, 90, 0],
+			"scale": [0.95, 0.95, 0.95]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	}
+}

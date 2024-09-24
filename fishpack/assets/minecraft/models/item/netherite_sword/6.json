@@ -1,0 +1,75 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "item/netherite_sword/6.1",
+		"layer0": "item/netherite_sword/6",
+		"particle": "item/netherite_sword/6.1"
+	},
+	"elements": [
+		{
+			"from": [7, 7.9, 3.5],
+			"to": [10.75, 8, 12.5],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.5, 7.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 9, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 4, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 9, 0], "texture": "#1"},
+				"up": {"uv": [4, 9, 0, 0], "texture": "#1"},
+				"down": {"uv": [8, 0, 4, 9], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, 7.95],
+			"to": [16, 16, 8.05],
+			"faces": {
+				"north": {"uv": [16, 0, 0, 16], "texture": "#layer0"},
+				"east": {"uv": [0, 0, 1, 16], "texture": "#layer0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer0"},
+				"west": {"uv": [0, 0, 1, 16], "texture": "#layer0"},
+				"up": {"uv": [0, 0, 16, 1], "texture": "#layer0"},
+				"down": {"uv": [0, 0, 16, 1], "texture": "#layer0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [0, 9.5, 1],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [0, 9, 1.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 30],
+			"translation": [1.5, 4.25, -0.5],
+			"scale": [1.36, 1.36, 1.36]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -105, 30],
+			"translation": [1.5, 4.25, 0.5],
+			"scale": [1.36, 1.36, 1.36]
+		},
+		"ground": {
+			"rotation": [45, 45, 45],
+			"translation": [0, 3.75, 0]
+		},
+		"gui": {
+			"rotation": [35, 21, 0],
+			"translation": [0, 0.25, -1],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"rotation": [0, 0, -93],
+			"translation": [-6.25, 6.25, 0]
+		},
+		"fixed": {
+			"translation": [0, 0.25, -1],
+			"scale": [2, 2, 2]
+		}
+	}
+}

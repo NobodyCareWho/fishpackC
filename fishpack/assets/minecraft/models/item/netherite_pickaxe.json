@@ -1,0 +1,29 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/netherite_pickaxe"
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/netherite_pickaxe/1"},
+		{"predicate": {"custom_model_data":2}, "model": "item/netherite_pickaxe/2"},
+		{"predicate": {"custom_model_data":3}, "model": "item/netherite_pickaxe/3"},
+		{"predicate": {"custom_model_data":4}, "model": "item/netherite_pickaxe/4"},
+		{"predicate": {"custom_model_data":5}, "model": "item/netherite_pickaxe/5"},
+		{"predicate": {"custom_model_data":6}, "model": "item/netherite_pickaxe/6"},
+		{"predicate": {"custom_model_data":7}, "model": "item/netherite_pickaxe/7"},
+		{"predicate": {"custom_model_data":8}, "model": "item/netherite_pickaxe/8"},
+		{"predicate": {"custom_model_data":9}, "model": "item/netherite_pickaxe/9"},
+		{"predicate": {"custom_model_data":10}, "model": "item/netherite_pickaxe/10"},
+		{"predicate": {"custom_model_data":11}, "model": "item/netherite_pickaxe/11"},
+		{"predicate": {"custom_model_data":12}, "model": "item/netherite_pickaxe/12"},
+		{"predicate": {"custom_model_data":13}, "model": "item/netherite_pickaxe/13"},
+		{"predicate": {"custom_model_data":14}, "model": "item/netherite_pickaxe/14"},
+		{"predicate": {"custom_model_data":15}, "model": "item/netherite_pickaxe/15"},
+		{"predicate": {"custom_model_data":16}, "model": "item/netherite_pickaxe/16"},
+		{"predicate": {"custom_model_data":17}, "model": "item/netherite_pickaxe/17"},
+		{"predicate": {"custom_model_data":18}, "model": "item/netherite_pickaxe/18"},
+		{"predicate": {"custom_model_data":19}, "model": "item/netherite_pickaxe/19"},
+		{"predicate": {"custom_model_data":20}, "model": "item/netherite_pickaxe/20"}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/honey_bottle"
+
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/honey_bottle/1"},
+		{"predicate": {"custom_model_data":2}, "model": "item/honey_bottle/2"},
+		{"predicate": {"custom_model_data":3}, "model": "item/honey_bottle/3"},
+		{"predicate": {"custom_model_data":4}, "model": "item/honey_bottle/4"},
+		{"predicate": {"custom_model_data":5}, "model": "item/honey_bottle/5"},
+		{"predicate": {"custom_model_data":6}, "model": "item/honey_bottle/6"},
+		{"predicate": {"custom_model_data":7}, "model": "item/honey_bottle/7"},
+		{"predicate": {"custom_model_data":8}, "model": "item/honey_bottle/8"},
+		{"predicate": {"custom_model_data":9}, "model": "item/honey_bottle/9"},
+		{"predicate": {"custom_model_data":10}, "model": "item/honey_bottle/10"},
+		{"predicate": {"custom_model_data":11}, "model": "item/honey_bottle/11"},
+		{"predicate": {"custom_model_data":12}, "model": "item/honey_bottle/12"},
+		{"predicate": {"custom_model_data":13}, "model": "item/honey_bottle/13"},
+		{"predicate": {"custom_model_data":14}, "model": "item/honey_bottle/14"},
+		{"predicate": {"custom_model_data":15}, "model": "item/honey_bottle/15"},
+		{"predicate": {"custom_model_data":16}, "model": "item/honey_bottle/16"},
+		{"predicate": {"custom_model_data":17}, "model": "item/honey_bottle/17"},
+		{"predicate": {"custom_model_data":18}, "model": "item/honey_bottle/18"},
+		{"predicate": {"custom_model_data":19}, "model": "item/honey_bottle/19"},
+		{"predicate": {"custom_model_data":20}, "model": "item/honey_bottle/20"}
+	]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/pumpkin_pie"
+
+	},
+	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "item/pumpkin_pie/1"},
+		{"predicate": {"custom_model_data":2}, "model": "item/pumpkin_pie/2"},
+		{"predicate": {"custom_model_data":3}, "model": "item/pumpkin_pie/3"},
+		{"predicate": {"custom_model_data":4}, "model": "item/pumpkin_pie/4"},
+		{"predicate": {"custom_model_data":5}, "model": "item/pumpkin_pie/5"},
+		{"predicate": {"custom_model_data":6}, "model": "item/pumpkin_pie/6"},
+		{"predicate": {"custom_model_data":7}, "model": "item/pumpkin_pie/7"},
+		{"predicate": {"custom_model_data":8}, "model": "item/pumpkin_pie/8"},
+		{"predicate": {"custom_model_data":9}, "model": "item/pumpkin_pie/9"},
+		{"predicate": {"custom_model_data":10}, "model": "item/pumpkin_pie/10"},
+		{"predicate": {"custom_model_data":11}, "model": "item/pumpkin_pie/11"},
+		{"predicate": {"custom_model_data":12}, "model": "item/pumpkin_pie/12"},
+		{"predicate": {"custom_model_data":13}, "model": "item/pumpkin_pie/13"},
+		{"predicate": {"custom_model_data":14}, "model": "item/pumpkin_pie/14"},
+		{"predicate": {"custom_model_data":15}, "model": "item/pumpkin_pie/15"},
+		{"predicate": {"custom_model_data":16}, "model": "item/pumpkin_pie/16"},
+		{"predicate": {"custom_model_data":17}, "model": "item/pumpkin_pie/17"},
+		{"predicate": {"custom_model_data":18}, "model": "item/pumpkin_pie/18"},
+		{"predicate": {"custom_model_data":19}, "model": "item/pumpkin_pie/19"},
+		{"predicate": {"custom_model_data":20}, "model": "item/pumpkin_pie/20"}
+	]
+}
